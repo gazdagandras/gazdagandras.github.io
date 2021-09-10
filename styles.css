@@ -1,0 +1,20 @@
+.legos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.lego {
+    flex: 1 1 350px;
+    text-align: center;
+}
+
+.lego .id {
+    font-weight: bold;
+    text-align: center;
+}
+
+.lego .image img {
+    max-height: 320px;
+}
